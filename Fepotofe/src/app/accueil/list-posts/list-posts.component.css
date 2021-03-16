@@ -1,0 +1,47 @@
+.nomCols{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.nomCols td{
+    text-align: center;
+}
+
+.contentCols{
+    border-collapse: separate;
+    border-spacing: 20px;
+    color: black;
+    
+}
+
+
+.allCols{
+    width: 100%;    
+    column-fill: balance;
+    background-color: lightpink;
+    border-radius:70px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.descPost{
+    margin-left: 5%;
+}
+
+.headPost{
+    font-weight: bolder;
+}
+
+.profilCreat{
+    font-weight: bolder;
+}
+
+.post{
+    background-color: lightseagreen;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+}

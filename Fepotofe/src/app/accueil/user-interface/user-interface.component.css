@@ -1,0 +1,28 @@
+.contentUserInterface{
+    background-color: peru;
+    border-radius:30px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.infos{
+    margin:10px;   
+}
+
+.info{
+    color: black;
+    margin:30px;
+    border-radius:70px;
+    background-color: lightpink;
+    text-indent: 5%;
+}
+
+.newPost{
+    text-align: center;
+}
+
+.boutonNewPost{
+    width: 40%;
+    margin-top: 50px;
+    height: 50px;
+}

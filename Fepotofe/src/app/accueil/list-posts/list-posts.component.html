@@ -1,0 +1,48 @@
+<table class="allCols">
+    <tr class='nomCols'>
+        <td>
+            Posts en cours
+        </td>
+     <td>
+            Posts acceptés
+        </td>
+        <td>
+            Posts développés
+        </td>
+        
+    </tr>
+
+    <br/>
+    
+    
+    <tr class='contentCols'>
+      <td>
+        <ul *ngFor='let post of this.enCours'>
+            <li class="post">
+                <a class="headPost">"{{post.title}}"</a>, par <a class="profilCreat">{{post.nameCreat}}</a>, le {{post.dateCreat}}
+                <p class="descPost">{{post.description}}</p>
+            </li>
+            <br/>
+        </ul>
+    </td>  
+    <td>
+        <ul *ngFor='let post of this.acceptes'>
+            <li class="post">
+                <a class="headPost">"{{post.title}}"</a>, par <a class="profilCreat">{{post.nameCreat}}</a>, le {{post.dateCreat}}
+                <p class="descPost">{{post.description}}</p>
+            </li>
+            <br/>
+        </ul>
+    </td>
+    <td>
+        <ul *ngFor='let post of this.finis'>
+            <li class="post">
+                <a class="headPost">"{{post.title}}"</a>, par <a class="profilCreat">{{post.nameCreat}}</a>, le {{post.dateCreat}}
+                <p class="descPost">{{post.description}}</p>
+            </li>
+            <br/>
+        </ul>
+    </td>
+        
+    </tr>
+</table>
